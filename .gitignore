@@ -5,6 +5,9 @@
 *.so
 *.dylib
 
+# Binaries built with `go build`
+/claudex
+
 # Test binaries, built with `go test -c`
 *.test
 
@@ -34,3 +37,6 @@ go.work.sum
 .pre-commit-config.yaml
 devenv.local.nix
 devenv.local.yaml
+
+# Workspace documentation (local-only)
+/docs/workspace/
